@@ -1,0 +1,287 @@
+/*dingen die voor alles gelden */
+
+* {
+    font-family: "Reddit Sans Condensed", sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+p {
+    font-size: 20px;
+}
+body {
+    background-color: #232323;
+}
+
+img,
+figure {
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+nav,
+a {
+    border: none;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #3F3F3F;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p,
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 36;
+    color: white;
+}
+
+h2{
+    font-size: 25;
+    color: white;
+}
+/*index.html*/
+.kruishoofd {
+    width: 672px;
+    height: 950px;
+    left: 28vw;
+}
+
+.whyBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 20vw;
+    top: 6vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+
+}
+
+.verantwoordingBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 57vw;
+    top: 6vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+
+}
+
+.verantwoordingBubble:hover {
+    transform: scale(1.3);
+}
+
+.brainstormBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+
+}
+.brainstormBubble:hover {
+    transform: scale(1.3);
+}
+
+.onderzoekBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 77vw;
+    top: 15vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+
+}
+
+.onderzoekBubble:hover {
+    transform: scale(1.3);
+}
+
+.personaBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 10vw;
+    top: 34vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+}
+
+.personaBubble:hover {
+    transform: scale(1.3);
+}
+
+.conclusieBubble {
+    width: 197.549px;
+    height: 197.549px;
+    left: 73vw;
+    top: 36vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
+
+}
+
+.conclusieBubble:hover {
+    transform: scale(1.3);
+}
+
+.quote1 {
+    font-size: 36px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 100px;  /* 50px vanaf de bovenkant van de container */
+    left: 580px; /* 100px vanaf de linkerkant van de container */
+    word-wrap: break-word;
+}
+
+.quote1Positie {
+    position: relative;
+}
+
+
+
+.whyBubble:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+/*dingen voor WHY + Startvraag*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Zorg ervoor dat ze aan de bovenkant uitgelijnd zijn */
+    padding: 100px; /* Voeg wat padding toe voor een betere uitstraling */
+}
+
+.startvraag, .doelgroep {
+    width: 45%; /* Beide secties nemen ongeveer de helft van de breedte in */
+}
+
+.doelgroep {
+    margin-left: auto; /* Schuift de 'doelgroep' sectie naar rechts */
+    padding-top: 50px;
+    position: relative;
+}
+
+.startvraag {
+    padding-left: 40px;
+}
+.startvraag2 {
+    padding-top: 50px;
+}
+.vraag1 {
+    padding-top: 20px;
+}
+.vraag2 {
+    padding-top: 40px;
+}
+
+.why {
+    padding-top: 200px;
+}
+
+.nina1 {
+    width: 300px;
+    height: 300px;
+    top: 215px;
+    left: 68,5;
+}
+
+.kees1 {
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    left: 68,5;
+}
+
+
+.genxtekst {
+    position: absolute;
+    top: 450px;  /* 50px vanaf de bovenkant van de container */
+
+    
+}
+
+
+
+/*dingen voor brainstorm*/
+
+/*dingen voor Verantwoording vorm*/
+.verantwoordingtitel{
+    left: 60px;
+}
+
+
+.afbeeldingenverantwoording {
+    flex: 1; /* Zorg ervoor dat deze sectie kan uitbreiden */
+    max-width: 50%; /* Zorg ervoor dat het niet te breed wordt */
+}
+
+.tekstenverantwoording {
+    flex: 1; /* Zorg ervoor dat deze sectie kan uitbreiden */
+    max-width: 50%; /* Zorg ervoor dat het niet te breed wordt */
+   
+}
+.rox {
+    width: 471px;
+    height: 326px;
+    top: 155px;
+    left: 150px;
+}
+
+.opmaak {
+    width: 471px;
+    height: 265px;
+    top: 508px;
+    left: 150px;
+}
+
+/*.tekstrox1 {
+
+    left: 200px;
+}
+
+.tekstrox2 {
+    
+    left: 200px;
+}*/
+
+/*dingen voor onderzoek*/
+
+/*dingen voor persona*/
+
+/*dingen voor conclusie*/
