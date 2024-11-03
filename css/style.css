@@ -180,45 +180,25 @@ h2{
 
 
 /*dingen voor WHY + Startvraag*/
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Zorg ervoor dat ze aan de bovenkant uitgelijnd zijn */
-    padding: 100px; /* Voeg wat padding toe voor een betere uitstraling */
-}
-
-.startvraag, .doelgroep {
-    width: 45%; /* Beide secties nemen ongeveer de helft van de breedte in */
-}
 
 .doelgroep {
     margin-left: auto; /* Schuift de 'doelgroep' sectie naar rechts */
     padding-top: 50px;
-    position: relative;
+    
 }
 
 .startvraag {
-    padding-left: 40px;
-}
-.startvraag2 {
     padding-top: 50px;
-}
-.vraag1 {
-    padding-top: 20px;
-}
-.vraag2 {
-    padding-top: 40px;
+    word-wrap: break-word;
 }
 
-.why {
-    padding-top: 200px;
-}
 
 .nina1 {
     width: 300px;
     height: 300px;
     top: 215px;
     left: 68,5;
+    position: relative;
 }
 
 .kees1 {
@@ -226,6 +206,11 @@ h2{
     height: 300px;
     top: 600px;
     left: 68,5;
+    position: relative;
+}
+
+section {
+    padding-left: 350px;
 }
 
 
@@ -236,52 +221,74 @@ h2{
     
 }
 
+/* onderzoek bubbels*/
 
+.photo {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
 
-/*dingen voor brainstorm*/
-
-/*dingen voor Verantwoording vorm*/
-.verantwoordingtitel{
-    left: 60px;
+}
+.photo:hover {
+    transform: scale(1.3);
 }
 
+.interview {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
 
-.afbeeldingenverantwoording {
-    flex: 1; /* Zorg ervoor dat deze sectie kan uitbreiden */
-    max-width: 50%; /* Zorg ervoor dat het niet te breed wordt */
+}
+.interview:hover {
+    transform: scale(1.3);
 }
 
-.tekstenverantwoording {
-    flex: 1; /* Zorg ervoor dat deze sectie kan uitbreiden */
-    max-width: 50%; /* Zorg ervoor dat het niet te breed wordt */
-   
-}
-.rox {
-    width: 471px;
-    height: 326px;
-    top: 155px;
-    left: 150px;
-}
+.post {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
 
-.opmaak {
-    width: 471px;
-    height: 265px;
-    top: 508px;
-    left: 150px;
+}
+.post:hover {
+    transform: scale(1.3);
 }
 
-/*.tekstrox1 {
+.hu {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
 
-    left: 200px;
+}
+.hu:hover {
+    transform: scale(1.3);
 }
 
-.tekstrox2 {
-    
-    left: 200px;
-}*/
+.desk {
+    width: 197.549px;
+    height: 197.549px;
+    left: 4vw;
+    top: 14vw;
+    transition: transform 0.2s ease;
+     /* Zorgt voor een vloeiende overgang */
+     transform-origin: center;
 
-/*dingen voor onderzoek*/
-
-/*dingen voor persona*/
-
-/*dingen voor conclusie*/
+}
+.desk:hover {
+    transform: scale(1.3);
+}
